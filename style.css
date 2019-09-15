@@ -284,12 +284,14 @@ header nav ul .userinfo i.fa-chevron-down {
 .content {
   width: 90%;
   margin: 40px auto 140px;
+  /*border: 1px solid red;*/
 }
 
 .content .page-content {
   width: 70%;
   margin: 0px auto;
   float: left;
+  /*border:*/
 }
 
 .content .page-content.single {
@@ -305,6 +307,7 @@ header nav ul .userinfo i.fa-chevron-down {
   width: 28%;
   float: left;
   margin: 78px auto;
+  /*border:*/
 }
 
 .content .sidebar.single {
@@ -472,7 +475,7 @@ header nav ul .userinfo i.fa-chevron-down {
 }
 
 .footer .footer-content .footer-section {
-  flex: 1;
+  flex: 1; /*.footer-section will be given equal space horizontally -must use display: flex to the parent(.footer .footer-content)*/
   padding: 40px;
   box-sizing: border-box;
 }
